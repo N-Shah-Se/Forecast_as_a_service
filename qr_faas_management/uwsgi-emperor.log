@@ -46,3 +46,22 @@ spawned uWSGI worker 8 (pid: 859459, cores: 1)
 spawned uWSGI worker 9 (pid: 859460, cores: 1)
 spawned uWSGI worker 10 (pid: 859461, cores: 1)
 [pid: 859461|app: 0|req: 1/1] 127.0.0.1 () {36 vars in 497 bytes} [Tue Dec 14 06:31:14 2021] POST /api/v1/user/login/ => generated 223 bytes in 337 msecs (HTTP/1.1 200) 7 headers in 194 bytes (2 switches on core 0)
+...brutally killing workers...
+Gracefully killing worker 2 (pid: 859453)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 8 buried after 1 seconds
+worker 9 buried after 1 seconds
+worker 10 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/nasir/project/Forecast_as_a_service/qr_faas_management
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (/home/nasir/project/Forecast_as_a_service/qr_faas_management/qr_faas_management.sock)
+running /home/nasir/project/Forecast_as_a_service/venv/md/bin/uwsgi
+execvp(): No such file or directory [core/master_utils.c line 555]
+VACUUM: unix socket /home/nasir/project/Forecast_as_a_service/qr_faas_management/qr_faas_management.sock removed.
