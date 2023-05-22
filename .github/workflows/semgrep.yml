@@ -1,6 +1,6 @@
 
 # Name of this GitHub Actions workflow.
-name: Semgrep
+name: Semgrep-rules-1
 on:
   pull_request: {}
   workflow_dispatch: {}
